@@ -1,6 +1,7 @@
 package classes;
 
 import java.awt.BorderLayout;
+import java.awt.Color;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
@@ -19,7 +20,7 @@ public class AppFrame extends JFrame{
 	
 	AppFrame()
 	{
-		this.setSize(400,700);
+		this.setSize(400,600);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setVisible(true);
 		
